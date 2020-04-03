@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Sample Suite File -->
+
+<suite name="EmployeeService-POST-Endpoint">
+<test name="Sample Test">
+		<classes>
+			<class
+				name="com.falcon.api.post.testscripts.employeeservice.TC_003_Verify_To_Create_Employee_With_EmptyPayload" />
+		</classes>
+	</test>  
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sample Suite File -->
+
+<suite name="EmployeeService-GET-Endpoint">
+<test name="Sample Test">
+		<classes>
+			<class
+				name="com.falcon.api.get.testscripts.employeeservice.TC_003_Verify_To_Get_Employees_Without_ID" />
+		</classes>
+	</test>  
+</suite>

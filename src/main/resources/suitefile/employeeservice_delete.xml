@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EmployeeService-DELETE-Endpoint">
+<test name="Sample Test">
+		<classes>
+			<class
+				name="com.falcon.api.delete.testscripts.employeeservice.TC_008_Verify_To_Delete_Employee_Without_ID" />
+		</classes>
+	</test>  
+</suite>

@@ -1,0 +1,2445 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api">
+              <span class="suite-name border-failed">TrueClear-DisplayChannelService-Api</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TrueClear-DisplayChannelService-Api">
+                    <span>D:\TCG_API_Automation\display-channel-service-api-testcases\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TrueClear-DisplayChannelService-Api">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TrueClear-DisplayChannelService-Api">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TrueClear-DisplayChannelService-Api">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TrueClear-DisplayChannelService-Api">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TrueClear-DisplayChannelService-Api">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TrueClear-DisplayChannelService-Api">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">45 methods, 5 failed,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TrueClear-DisplayChannelService-Api" class="hide-methods failed suite-TrueClear-DisplayChannelService-Api"> (hide)</a> <!-- hide-methods failed suite-TrueClear-DisplayChannelService-Api -->
+                      <a href="#" panel-name="suite-TrueClear-DisplayChannelService-Api" class="show-methods failed suite-TrueClear-DisplayChannelService-Api"> (show)</a> <!-- show-methods failed suite-TrueClear-DisplayChannelService-Api -->
+                    </span>
+                    <div class="method-list-content failed suite-TrueClear-DisplayChannelService-Api">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName" hash-for-method="AddScheduletWithSameScheduleName">AddScheduletWithSameScheduleName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID" hash-for-method="GetAssetsWithScheduleUUID">GetAssetsWithScheduleUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID" hash-for-method="addScheduleWithScheduleUUID">addScheduleWithScheduleUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule" hash-for-method="createPrerequisiteTestData">createPrerequisiteTestData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data" hash-for-method="testDeleteTestData">testDeleteTestData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TrueClear-DisplayChannelService-Api -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TrueClear-DisplayChannelService-Api" class="hide-methods passed suite-TrueClear-DisplayChannelService-Api"> (hide)</a> <!-- hide-methods passed suite-TrueClear-DisplayChannelService-Api -->
+                      <a href="#" panel-name="suite-TrueClear-DisplayChannelService-Api" class="show-methods passed suite-TrueClear-DisplayChannelService-Api"> (show)</a> <!-- show-methods passed suite-TrueClear-DisplayChannelService-Api -->
+                    </span>
+                    <div class="method-list-content passed suite-TrueClear-DisplayChannelService-Api">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization" hash-for-method="AddAutoScheduleWithoutAuthorization">AddAutoScheduleWithoutAuthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber" hash-for-method="AddAutoScheduletWithSameNetworkNumber">AddAutoScheduletWithSameNetworkNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks" hash-for-method="AddScheduleWithHourBlocks">AddScheduleWithHourBlocks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload" hash-for-method="AddScheduleWithInvalidJsonFormat">AddScheduleWithInvalidJsonFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data" hash-for-method="AddScheduleWithValidData">AddScheduleWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization" hash-for-method="AddScheduleWithoutAuthorization">AddScheduleWithoutAuthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID" hash-for-method="AddScheduleWithoutDayBlockUUID">AddScheduleWithoutDayBlockUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek" hash-for-method="AddScheduleWithoutDayOfWeek">AddScheduleWithoutDayOfWeek</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary" hash-for-method="AddScheduleWithoutDisplayScheduleSummary">AddScheduleWithoutDisplayScheduleSummary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID" hash-for-method="AddScheduleWithoutDisplayUuid">AddScheduleWithoutDisplayUuid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName" hash-for-method="AddScheduletWithoutScheduleName">AddScheduletWithoutScheduleName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID" hash-for-method="DeleteScheduleWithInvalScheduleUUID">DeleteScheduleWithInvalScheduleUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID" hash-for-method="DeleteScheduleWithInvalidDisplayUUID">DeleteScheduleWithInvalidDisplayUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule" hash-for-method="DeleteScheduleWithValidData">DeleteScheduleWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization" hash-for-method="DeleteScheduleWithoutAuthorization">DeleteScheduleWithoutAuthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber" hash-for-method="GenerateAutoScheduleWithNetworkNumber">GenerateAutoScheduleWithNetworkNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber" hash-for-method="GenerateAutoScheduleWithoutNetworkNumber">GenerateAutoScheduleWithoutNetworkNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID" hash-for-method="GetAssetsWithInvalidScheduleUUID">GetAssetsWithInvalidScheduleUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID" hash-for-method="GetAssetsWithoutAuthorizationWithScheduleUUID">GetAssetsWithoutAuthorizationWithScheduleUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID" hash-for-method="GetDayBlockWithDisplayUUID">GetDayBlockWithDisplayUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID" hash-for-method="GetDayBlockWithoutDisplayUUID">GetDayBlockWithoutDisplayUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID" hash-for-method="GetHourBlockWithDisplayUUID">GetHourBlockWithDisplayUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID" hash-for-method="GetHourBlockWithHourBlockUUID">GetHourBlockWithHourBlockUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization" hash-for-method="GetHourBlockWithoutAuthorization">GetHourBlockWithoutAuthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID" hash-for-method="GetHourBlockWithoutDisplayUUID">GetHourBlockWithoutDisplayUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID" hash-for-method="GetHourBlockWithoutHourBlockUUID">GetHourBlockWithoutHourBlockUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID" hash-for-method="GetScheduleWithDisplayUUID">GetScheduleWithDisplayUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID" hash-for-method="GetScheduleWithInvalidDisplayUUID">GetScheduleWithInvalidDisplayUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID" hash-for-method="GetScheduleWithScheduleUUID">GetScheduleWithScheduleUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State" hash-for-method="GetScheduleWithState">GetScheduleWithState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization" hash-for-method="GetScheduleWithoutAuthorization">GetScheduleWithoutAuthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID" hash-for-method="GetScheduleWithoutAuthorizationWithDisplayUUID">GetScheduleWithoutAuthorizationWithDisplayUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color" hash-for-method="UpdateScheduleWithColor">UpdateScheduleWithColor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName" hash-for-method="UpdateScheduleWithExistingScheduleName">UpdateScheduleWithExistingScheduleName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State" hash-for-method="UpdateScheduleWithState">UpdateScheduleWithState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data" hash-for-method="UpdateScheduleWithValidData">UpdateScheduleWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization" hash-for-method="UpdateScheduleWithoutAuthorization">UpdateScheduleWithoutAuthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID" hash-for-method="UpdateScheduleWithoutDayBlockUUID">UpdateScheduleWithoutDayBlockUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload" hash-for-method="addAutoScheduleWithEmptyPayload">addAutoScheduleWithEmptyPayload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrueClear-DisplayChannelService-Api" title="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload" hash-for-method="addScheduleWithEmptyPayload">addScheduleWithEmptyPayload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TrueClear-DisplayChannelService-Api -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TrueClear-DisplayChannelService-Api" class="panel TrueClear-DisplayChannelService-Api">
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddScheduletWithSameScheduleName">
+                  </a> <!-- AddScheduletWithSameScheduleName -->
+                  <span class="method-name">AddScheduletWithSameScheduleName</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName.AddScheduletWithSameScheduleName(TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName.java:40)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-failed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetAssetsWithScheduleUUID">
+                  </a> <!-- GetAssetsWithScheduleUUID -->
+                  <span class="method-name">GetAssetsWithScheduleUUID</span>
+                  <div class="stack-trace">java.lang.AssertionError: ERROR: Status Code Validation Failed. expected [200] but found [500]
+	at com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID.GetAssetsWithScheduleUUID(TC_030_Verify_To_Get_Assets_With_ScheduleUUID.java:33)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-failed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteTestData">
+                  </a> <!-- testDeleteTestData -->
+                  <span class="method-name">testDeleteTestData</span>
+                  <div class="stack-trace">java.lang.AssertionError: ERROR: Status Code Validation Failed. expected [200] but found [404]
+	at com.truclearglobal.api.utility.NetworkHelper.deleteNetwork(NetworkHelper.java:81)
+	at com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data.testDeleteTestData(TC_000_Verify_To_Delete_All_Test_Data.java:36)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-failed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addScheduleWithScheduleUUID">
+                  </a> <!-- addScheduleWithScheduleUUID -->
+                  <span class="method-name">addScheduleWithScheduleUUID</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [422]
+	at com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID.addScheduleWithScheduleUUID(TC_002_Verify_To_Create_Schedule_With_ScheduleUUID.java:36)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-failed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPrerequisiteTestData">
+                  </a> <!-- createPrerequisiteTestData -->
+                  <span class="method-name">createPrerequisiteTestData</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.truclearglobal.api.utility.DeviceServiceHelper.addDeviceAndReturnId(DeviceServiceHelper.java:33)
+	at com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule.createPrerequisiteTestData(TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule.java:45)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-failed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddScheduleWithoutAuthorization">
+                  </a> <!-- AddScheduleWithoutAuthorization -->
+                  <span class="method-name">AddScheduleWithoutAuthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddScheduleWithoutDayOfWeek">
+                  </a> <!-- AddScheduleWithoutDayOfWeek -->
+                  <span class="method-name">AddScheduleWithoutDayOfWeek</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetScheduleWithoutAuthorization">
+                  </a> <!-- GetScheduleWithoutAuthorization -->
+                  <span class="method-name">GetScheduleWithoutAuthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetScheduleWithState">
+                  </a> <!-- GetScheduleWithState -->
+                  <span class="method-name">GetScheduleWithState</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddScheduleWithHourBlocks">
+                  </a> <!-- AddScheduleWithHourBlocks -->
+                  <span class="method-name">AddScheduleWithHourBlocks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetScheduleWithScheduleUUID">
+                  </a> <!-- GetScheduleWithScheduleUUID -->
+                  <span class="method-name">GetScheduleWithScheduleUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddScheduleWithoutDayBlockUUID">
+                  </a> <!-- AddScheduleWithoutDayBlockUUID -->
+                  <span class="method-name">AddScheduleWithoutDayBlockUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetScheduleWithDisplayUUID">
+                  </a> <!-- GetScheduleWithDisplayUUID -->
+                  <span class="method-name">GetScheduleWithDisplayUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateScheduleWithValidData">
+                  </a> <!-- UpdateScheduleWithValidData -->
+                  <span class="method-name">UpdateScheduleWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetHourBlockWithoutDisplayUUID">
+                  </a> <!-- GetHourBlockWithoutDisplayUUID -->
+                  <span class="method-name">GetHourBlockWithoutDisplayUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteScheduleWithInvalScheduleUUID">
+                  </a> <!-- DeleteScheduleWithInvalScheduleUUID -->
+                  <span class="method-name">DeleteScheduleWithInvalScheduleUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetDayBlockWithoutDisplayUUID">
+                  </a> <!-- GetDayBlockWithoutDisplayUUID -->
+                  <span class="method-name">GetDayBlockWithoutDisplayUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateScheduleWithColor">
+                  </a> <!-- UpdateScheduleWithColor -->
+                  <span class="method-name">UpdateScheduleWithColor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GenerateAutoScheduleWithoutNetworkNumber">
+                  </a> <!-- GenerateAutoScheduleWithoutNetworkNumber -->
+                  <span class="method-name">GenerateAutoScheduleWithoutNetworkNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetHourBlockWithHourBlockUUID">
+                  </a> <!-- GetHourBlockWithHourBlockUUID -->
+                  <span class="method-name">GetHourBlockWithHourBlockUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetHourBlockWithoutAuthorization">
+                  </a> <!-- GetHourBlockWithoutAuthorization -->
+                  <span class="method-name">GetHourBlockWithoutAuthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddScheduletWithoutScheduleName">
+                  </a> <!-- AddScheduletWithoutScheduleName -->
+                  <span class="method-name">AddScheduletWithoutScheduleName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetAssetsWithoutAuthorizationWithScheduleUUID">
+                  </a> <!-- GetAssetsWithoutAuthorizationWithScheduleUUID -->
+                  <span class="method-name">GetAssetsWithoutAuthorizationWithScheduleUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetDayBlockWithDisplayUUID">
+                  </a> <!-- GetDayBlockWithDisplayUUID -->
+                  <span class="method-name">GetDayBlockWithDisplayUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAutoScheduleWithEmptyPayload">
+                  </a> <!-- addAutoScheduleWithEmptyPayload -->
+                  <span class="method-name">addAutoScheduleWithEmptyPayload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetHourBlockWithoutHourBlockUUID">
+                  </a> <!-- GetHourBlockWithoutHourBlockUUID -->
+                  <span class="method-name">GetHourBlockWithoutHourBlockUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetAssetsWithInvalidScheduleUUID">
+                  </a> <!-- GetAssetsWithInvalidScheduleUUID -->
+                  <span class="method-name">GetAssetsWithInvalidScheduleUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GenerateAutoScheduleWithNetworkNumber">
+                  </a> <!-- GenerateAutoScheduleWithNetworkNumber -->
+                  <span class="method-name">GenerateAutoScheduleWithNetworkNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddScheduleWithValidData">
+                  </a> <!-- AddScheduleWithValidData -->
+                  <span class="method-name">AddScheduleWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetScheduleWithInvalidDisplayUUID">
+                  </a> <!-- GetScheduleWithInvalidDisplayUUID -->
+                  <span class="method-name">GetScheduleWithInvalidDisplayUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateScheduleWithoutDayBlockUUID">
+                  </a> <!-- UpdateScheduleWithoutDayBlockUUID -->
+                  <span class="method-name">UpdateScheduleWithoutDayBlockUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddScheduleWithInvalidJsonFormat">
+                  </a> <!-- AddScheduleWithInvalidJsonFormat -->
+                  <span class="method-name">AddScheduleWithInvalidJsonFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateScheduleWithExistingScheduleName">
+                  </a> <!-- UpdateScheduleWithExistingScheduleName -->
+                  <span class="method-name">UpdateScheduleWithExistingScheduleName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddScheduleWithoutDisplayUuid">
+                  </a> <!-- AddScheduleWithoutDisplayUuid -->
+                  <span class="method-name">AddScheduleWithoutDisplayUuid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetScheduleWithoutAuthorizationWithDisplayUUID">
+                  </a> <!-- GetScheduleWithoutAuthorizationWithDisplayUUID -->
+                  <span class="method-name">GetScheduleWithoutAuthorizationWithDisplayUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateScheduleWithoutAuthorization">
+                  </a> <!-- UpdateScheduleWithoutAuthorization -->
+                  <span class="method-name">UpdateScheduleWithoutAuthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteScheduleWithValidData">
+                  </a> <!-- DeleteScheduleWithValidData -->
+                  <span class="method-name">DeleteScheduleWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateScheduleWithState">
+                  </a> <!-- UpdateScheduleWithState -->
+                  <span class="method-name">UpdateScheduleWithState</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteScheduleWithInvalidDisplayUUID">
+                  </a> <!-- DeleteScheduleWithInvalidDisplayUUID -->
+                  <span class="method-name">DeleteScheduleWithInvalidDisplayUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addScheduleWithEmptyPayload">
+                  </a> <!-- addScheduleWithEmptyPayload -->
+                  <span class="method-name">addScheduleWithEmptyPayload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetHourBlockWithDisplayUUID">
+                  </a> <!-- GetHourBlockWithDisplayUUID -->
+                  <span class="method-name">GetHourBlockWithDisplayUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteScheduleWithoutAuthorization">
+                  </a> <!-- DeleteScheduleWithoutAuthorization -->
+                  <span class="method-name">DeleteScheduleWithoutAuthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddAutoScheduletWithSameNetworkNumber">
+                  </a> <!-- AddAutoScheduletWithSameNetworkNumber -->
+                  <span class="method-name">AddAutoScheduletWithSameNetworkNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddScheduleWithoutDisplayScheduleSummary">
+                  </a> <!-- AddScheduleWithoutDisplayScheduleSummary -->
+                  <span class="method-name">AddScheduleWithoutDisplayScheduleSummary</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+          <div class="suite-TrueClear-DisplayChannelService-Api-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddAutoScheduleWithoutAuthorization">
+                  </a> <!-- AddAutoScheduleWithoutAuthorization -->
+                  <span class="method-name">AddAutoScheduleWithoutAuthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrueClear-DisplayChannelService-Api-class-passed -->
+        </div> <!-- panel TrueClear-DisplayChannelService-Api -->
+        <div panel-name="test-xml-TrueClear-DisplayChannelService-Api" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\TCG_API_Automation\display-channel-service-api-testcases\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TrueClear-DisplayChannelService-Api&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test cases of DisplayChannelService POST end point&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test cases of DisplayChannelService POST end point --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test cases of DisplayChannelService GET end point&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test cases of DisplayChannelService GET end point --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test cases of DisplayChannelService PUT end point&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test cases of DisplayChannelService PUT end point --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test cases of DisplayChannelService DELETE end point&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID&quot;/&gt;
+      &lt;class name=&quot;com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test cases of DisplayChannelService DELETE end point --&gt;
+&lt;/suite&gt; &lt;!-- TrueClear-DisplayChannelService-Api --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TrueClear-DisplayChannelService-Api" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TrueClear-DisplayChannelService-Api</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test cases of DisplayChannelService POST end point (18 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test cases of DisplayChannelService GET end point (16 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test cases of DisplayChannelService PUT end point (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test cases of DisplayChannelService DELETE end point (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TrueClear-DisplayChannelService-Api" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TrueClear-DisplayChannelService-Api</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TrueClear-DisplayChannelService-Api" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TrueClear-DisplayChannelService-Api</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TrueClear-DisplayChannelService-Api');
+function tableData_TrueClear-DisplayChannelService-Api() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(45);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createPrerequisiteTestData')
+data.setCell(0, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule')
+data.setCell(0, 3, 24137);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDeleteTestData')
+data.setCell(1, 2, 'com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data')
+data.setCell(1, 3, 22772);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'GetAssetsWithScheduleUUID')
+data.setCell(2, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID')
+data.setCell(2, 3, 15774);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'UpdateScheduleWithColor')
+data.setCell(3, 2, 'com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color')
+data.setCell(3, 3, 11666);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'UpdateScheduleWithExistingScheduleName')
+data.setCell(4, 2, 'com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName')
+data.setCell(4, 3, 11232);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'UpdateScheduleWithValidData')
+data.setCell(5, 2, 'com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data')
+data.setCell(5, 3, 11131);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'UpdateScheduleWithState')
+data.setCell(6, 2, 'com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State')
+data.setCell(6, 3, 10129);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'UpdateScheduleWithoutDayBlockUUID')
+data.setCell(7, 2, 'com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID')
+data.setCell(7, 3, 9859);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'UpdateScheduleWithoutAuthorization')
+data.setCell(8, 2, 'com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization')
+data.setCell(8, 3, 8711);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'GetAssetsWithInvalidScheduleUUID')
+data.setCell(9, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID')
+data.setCell(9, 3, 8345);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'GetAssetsWithoutAuthorizationWithScheduleUUID')
+data.setCell(10, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID')
+data.setCell(10, 3, 6711);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addAutoScheduleWithEmptyPayload')
+data.setCell(11, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload')
+data.setCell(11, 3, 6132);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'GetDayBlockWithDisplayUUID')
+data.setCell(12, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID')
+data.setCell(12, 3, 6132);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'GetDayBlockWithoutDisplayUUID')
+data.setCell(13, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID')
+data.setCell(13, 3, 6077);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addScheduleWithEmptyPayload')
+data.setCell(14, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload')
+data.setCell(14, 3, 5894);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'GetScheduleWithState')
+data.setCell(15, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State')
+data.setCell(15, 3, 5822);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'GetScheduleWithDisplayUUID')
+data.setCell(16, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID')
+data.setCell(16, 3, 5706);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addScheduleWithScheduleUUID')
+data.setCell(17, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID')
+data.setCell(17, 3, 5525);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'GenerateAutoScheduleWithoutNetworkNumber')
+data.setCell(18, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber')
+data.setCell(18, 3, 5435);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'AddScheduleWithoutDayBlockUUID')
+data.setCell(19, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID')
+data.setCell(19, 3, 5374);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'AddScheduleWithHourBlocks')
+data.setCell(20, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks')
+data.setCell(20, 3, 5372);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'GetHourBlockWithHourBlockUUID')
+data.setCell(21, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID')
+data.setCell(21, 3, 5367);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'AddScheduleWithoutDayOfWeek')
+data.setCell(22, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek')
+data.setCell(22, 3, 5114);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'AddScheduletWithoutScheduleName')
+data.setCell(23, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName')
+data.setCell(23, 3, 5110);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'GetHourBlockWithoutDisplayUUID')
+data.setCell(24, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID')
+data.setCell(24, 3, 5104);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'AddScheduletWithSameScheduleName')
+data.setCell(25, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName')
+data.setCell(25, 3, 5102);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'GetScheduleWithInvalidDisplayUUID')
+data.setCell(26, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID')
+data.setCell(26, 3, 5102);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'GenerateAutoScheduleWithNetworkNumber')
+data.setCell(27, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber')
+data.setCell(27, 3, 4906);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'AddAutoScheduletWithSameNetworkNumber')
+data.setCell(28, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber')
+data.setCell(28, 3, 4906);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'AddScheduleWithValidData')
+data.setCell(29, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data')
+data.setCell(29, 3, 4870);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'AddScheduleWithInvalidJsonFormat')
+data.setCell(30, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload')
+data.setCell(30, 3, 4773);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'GetScheduleWithScheduleUUID')
+data.setCell(31, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID')
+data.setCell(31, 3, 4682);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'DeleteScheduleWithValidData')
+data.setCell(32, 2, 'com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule')
+data.setCell(32, 3, 4671);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'GetHourBlockWithDisplayUUID')
+data.setCell(33, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID')
+data.setCell(33, 3, 4557);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'AddScheduleWithoutDisplayScheduleSummary')
+data.setCell(34, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary')
+data.setCell(34, 3, 4430);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'DeleteScheduleWithInvalidDisplayUUID')
+data.setCell(35, 2, 'com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID')
+data.setCell(35, 3, 4313);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'AddScheduleWithoutDisplayUuid')
+data.setCell(36, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID')
+data.setCell(36, 3, 4227);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'GetHourBlockWithoutHourBlockUUID')
+data.setCell(37, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID')
+data.setCell(37, 3, 4182);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'DeleteScheduleWithInvalScheduleUUID')
+data.setCell(38, 2, 'com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID')
+data.setCell(38, 3, 3920);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'GetHourBlockWithoutAuthorization')
+data.setCell(39, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization')
+data.setCell(39, 3, 2661);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'GetScheduleWithoutAuthorizationWithDisplayUUID')
+data.setCell(40, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID')
+data.setCell(40, 3, 2543);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'DeleteScheduleWithoutAuthorization')
+data.setCell(41, 2, 'com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization')
+data.setCell(41, 3, 2417);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'AddScheduleWithoutAuthorization')
+data.setCell(42, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization')
+data.setCell(42, 3, 2376);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'AddAutoScheduleWithoutAuthorization')
+data.setCell(43, 2, 'com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization')
+data.setCell(43, 3, 2336);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'GetScheduleWithoutAuthorization')
+data.setCell(44, 2, 'com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization')
+data.setCell(44, 3, 1781);
+window.suiteTableData['TrueClear-DisplayChannelService-Api']= { tableData: data, tableDiv: 'times-div-TrueClear-DisplayChannelService-Api'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-TrueClear-DisplayChannelService-Api">
+              </div> <!-- times-div-TrueClear-DisplayChannelService-Api -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TrueClear-DisplayChannelService-Api" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TrueClear-DisplayChannelService-Api</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TrueClear-DisplayChannelService-Api" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">82 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intiReportProperties</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TrueClear-DisplayChannelService-Api" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">intiReportProperties</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">150 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createPrerequisiteTestData</span>
+                <span class="method-start">200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=createPrerequisiteTestData status=FAILURE method=TC_000_Verify_To_Create_Prerequisi...)</span>
+                <span class="method-start">24346 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">24368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddScheduleWithValidData</span>
+                <span class="method-start">24386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddScheduleWithValidData status=SUCCESS method=TC_001_Verify_To_Create_Schedule_Wit...)</span>
+                <span class="method-start">29262 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">29264 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addScheduleWithScheduleUUID</span>
+                <span class="method-start">29279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addScheduleWithScheduleUUID status=FAILURE method=TC_002_Verify_To_Create_Schedule_...)</span>
+                <span class="method-start">34804 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">34808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addScheduleWithEmptyPayload</span>
+                <span class="method-start">34813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addScheduleWithEmptyPayload status=SUCCESS method=TC_003_Verify_To_Create_Schedule_...)</span>
+                <span class="method-start">40707 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">40707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddScheduleWithoutAuthorization</span>
+                <span class="method-start">40720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddScheduleWithoutAuthorization status=SUCCESS method=TC_004_Verify_To_Create_Sched...)</span>
+                <span class="method-start">43096 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">43096 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddScheduleWithInvalidJsonFormat</span>
+                <span class="method-start">43112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddScheduleWithInvalidJsonFormat status=SUCCESS method=TC_005_Verify_To_Create_Sche...)</span>
+                <span class="method-start">47889 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">47889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddScheduleWithoutDisplayUuid</span>
+                <span class="method-start">47900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddScheduleWithoutDisplayUuid status=SUCCESS method=TC_006_Verify_To_Create_Schedul...)</span>
+                <span class="method-start">52127 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">52127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddScheduleWithoutDayBlockUUID</span>
+                <span class="method-start">52132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddScheduleWithoutDayBlockUUID status=SUCCESS method=TC_007_Verify_To_Create_Schedu...)</span>
+                <span class="method-start">57506 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">57506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddScheduletWithoutScheduleName</span>
+                <span class="method-start">57521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddScheduletWithoutScheduleName status=SUCCESS method=TC_008_Verify_To_Create_Sched...)</span>
+                <span class="method-start">62631 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">62631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddScheduletWithSameScheduleName</span>
+                <span class="method-start">62643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddScheduletWithSameScheduleName status=FAILURE method=TC_009_Verify_To_Create_Sche...)</span>
+                <span class="method-start">67745 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">67756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddScheduleWithoutDayOfWeek</span>
+                <span class="method-start">67766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddScheduleWithoutDayOfWeek status=SUCCESS method=TC_010_Verify_To_Create_Schedule_...)</span>
+                <span class="method-start">72880 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">72885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddScheduleWithoutDisplayScheduleSummary</span>
+                <span class="method-start">72891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddScheduleWithoutDisplayScheduleSummary status=SUCCESS method=TC_011_Verify_To_Cre...)</span>
+                <span class="method-start">77321 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">77321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddScheduleWithHourBlocks</span>
+                <span class="method-start">77328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddScheduleWithHourBlocks status=SUCCESS method=TC_012_Verify_To_Create_Schedule_Wi...)</span>
+                <span class="method-start">82701 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">82702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GenerateAutoScheduleWithNetworkNumber</span>
+                <span class="method-start">82704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GenerateAutoScheduleWithNetworkNumber status=SUCCESS method=TC_013_Verify_To_Genera...)</span>
+                <span class="method-start">87610 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">87610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GenerateAutoScheduleWithoutNetworkNumber</span>
+                <span class="method-start">87616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GenerateAutoScheduleWithoutNetworkNumber status=SUCCESS method=TC_014_Verify_To_Gen...)</span>
+                <span class="method-start">93051 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">93051 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddAutoScheduleWithoutAuthorization</span>
+                <span class="method-start">93057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddAutoScheduleWithoutAuthorization status=SUCCESS method=TC_015_Verify_To_Generate...)</span>
+                <span class="method-start">95393 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">95393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addAutoScheduleWithEmptyPayload</span>
+                <span class="method-start">95405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addAutoScheduleWithEmptyPayload status=SUCCESS method=TC_016_Verify_To_Generate_Aut...)</span>
+                <span class="method-start">101537 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">101537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddAutoScheduletWithSameNetworkNumber</span>
+                <span class="method-start">101547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AddAutoScheduletWithSameNetworkNumber status=SUCCESS method=TC_017_Verify_To_Genera...)</span>
+                <span class="method-start">106453 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">106513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetScheduleWithScheduleUUID</span>
+                <span class="method-start">106513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetScheduleWithScheduleUUID status=SUCCESS method=TC_018_Verify_To_Get_Schedule_Wit...)</span>
+                <span class="method-start">111195 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">111195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetScheduleWithDisplayUUID</span>
+                <span class="method-start">111195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetScheduleWithDisplayUUID status=SUCCESS method=TC_019_Verify_To_Get_Schedule_With...)</span>
+                <span class="method-start">116901 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">116905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetScheduleWithoutAuthorizationWithDisplayUUID</span>
+                <span class="method-start">116914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetScheduleWithoutAuthorizationWithDisplayUUID status=SUCCESS method=TC_020_Verify_...)</span>
+                <span class="method-start">119457 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">119457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetScheduleWithState</span>
+                <span class="method-start">119473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetScheduleWithState status=SUCCESS method=TC_021_Verify_To_Get_Schedule_With_State...)</span>
+                <span class="method-start">125295 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">125295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetDayBlockWithDisplayUUID</span>
+                <span class="method-start">125306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetDayBlockWithDisplayUUID status=SUCCESS method=TC_022_Verify_To_Get_DayBlock_With...)</span>
+                <span class="method-start">131438 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">131438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetDayBlockWithoutDisplayUUID</span>
+                <span class="method-start">131449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetDayBlockWithoutDisplayUUID status=SUCCESS method=TC_023_Verify_To_Get_DayBlock_W...)</span>
+                <span class="method-start">137527 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">137527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetScheduleWithoutAuthorization</span>
+                <span class="method-start">137531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetScheduleWithoutAuthorization status=SUCCESS method=TC_024_Verify_To_Get_DayBlock...)</span>
+                <span class="method-start">139312 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">139312 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetHourBlockWithDisplayUUID</span>
+                <span class="method-start">139322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetHourBlockWithDisplayUUID status=SUCCESS method=TC_025_Verify_To_Get_HourBlock_Wi...)</span>
+                <span class="method-start">143879 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">143879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetHourBlockWithHourBlockUUID</span>
+                <span class="method-start">143889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetHourBlockWithHourBlockUUID status=SUCCESS method=TC_026_Verify_To_Get_HourBlock_...)</span>
+                <span class="method-start">149257 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">149258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetHourBlockWithoutAuthorization</span>
+                <span class="method-start">149261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetHourBlockWithoutAuthorization status=SUCCESS method=TC_027_Verify_To_Get_HourBlo...)</span>
+                <span class="method-start">151924 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">151926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetHourBlockWithoutDisplayUUID</span>
+                <span class="method-start">151935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetHourBlockWithoutDisplayUUID status=SUCCESS method=TC_028_Verify_To_Get_HourBlock...)</span>
+                <span class="method-start">157040 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">157040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetHourBlockWithoutHourBlockUUID</span>
+                <span class="method-start">157045 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetHourBlockWithoutHourBlockUUID status=SUCCESS method=TC_029_Verify_To_Get_HourBlo...)</span>
+                <span class="method-start">161228 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">161229 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetAssetsWithScheduleUUID</span>
+                <span class="method-start">161233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetAssetsWithScheduleUUID status=FAILURE method=TC_030_Verify_To_Get_Assets_With_Sc...)</span>
+                <span class="method-start">177007 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">177007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetAssetsWithoutAuthorizationWithScheduleUUID</span>
+                <span class="method-start">177017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetAssetsWithoutAuthorizationWithScheduleUUID status=SUCCESS method=TC_031_Verify_T...)</span>
+                <span class="method-start">183728 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">183728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetAssetsWithInvalidScheduleUUID</span>
+                <span class="method-start">183739 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetAssetsWithInvalidScheduleUUID status=SUCCESS method=TC_032_Verify_To_Get_Assets_...)</span>
+                <span class="method-start">192084 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">192084 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetScheduleWithInvalidDisplayUUID</span>
+                <span class="method-start">192088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetScheduleWithInvalidDisplayUUID status=SUCCESS method=TC_033_Verify_To_Get_Schedu...)</span>
+                <span class="method-start">197190 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">197219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateScheduleWithValidData</span>
+                <span class="method-start">197226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=UpdateScheduleWithValidData status=SUCCESS method=TC_034_Update_Schedule_With_Valid...)</span>
+                <span class="method-start">208357 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">208357 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateScheduleWithExistingScheduleName</span>
+                <span class="method-start">208357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=UpdateScheduleWithExistingScheduleName status=SUCCESS method=TC_035_Update_Schedule...)</span>
+                <span class="method-start">219589 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">219589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateScheduleWithoutAuthorization</span>
+                <span class="method-start">219599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=UpdateScheduleWithoutAuthorization status=SUCCESS method=TC_036_Update_Schedule_Wit...)</span>
+                <span class="method-start">228310 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">228310 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateScheduleWithoutDayBlockUUID</span>
+                <span class="method-start">228318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=UpdateScheduleWithoutDayBlockUUID status=SUCCESS method=TC_037_Update_Schedule_With...)</span>
+                <span class="method-start">238182 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">238182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateScheduleWithColor</span>
+                <span class="method-start">238191 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=UpdateScheduleWithColor status=SUCCESS method=TC_038_Update_Schedule_With_Color.Upd...)</span>
+                <span class="method-start">249858 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">249858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateScheduleWithState</span>
+                <span class="method-start">249862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=UpdateScheduleWithState status=SUCCESS method=TC_039_Update_Schedule_With_State.Upd...)</span>
+                <span class="method-start">259991 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">260009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDeleteTestData</span>
+                <span class="method-start">260015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testDeleteTestData status=FAILURE method=TC_000_Verify_To_Delete_All_Test_Data.test...)</span>
+                <span class="method-start">282789 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">282789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DeleteScheduleWithValidData</span>
+                <span class="method-start">282797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=DeleteScheduleWithValidData status=SUCCESS method=TC_040_Verify_To_Delete_Created_S...)</span>
+                <span class="method-start">287469 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">287470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DeleteScheduleWithoutAuthorization</span>
+                <span class="method-start">287474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=DeleteScheduleWithoutAuthorization status=SUCCESS method=TC_041_Verify_To_Delete_Sc...)</span>
+                <span class="method-start">289891 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">289895 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DeleteScheduleWithInvalScheduleUUID</span>
+                <span class="method-start">289903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=DeleteScheduleWithInvalScheduleUUID status=SUCCESS method=TC_042_Verify_To_Delete_S...)</span>
+                <span class="method-start">293824 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initProperties</span>
+                <span class="method-start">293826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DeleteScheduleWithInvalidDisplayUUID</span>
+                <span class="method-start">293835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=DeleteScheduleWithInvalidDisplayUUID status=SUCCESS method=TC_043_Verify_To_Delete_...)</span>
+                <span class="method-start">298149 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">298161 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

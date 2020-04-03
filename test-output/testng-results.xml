@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="82" total="127" passed="40">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TrueClear-DisplayChannelService-Api" duration-ms="298011" started-at="2019-07-19T09:39:07Z" finished-at="2019-07-19T09:44:05Z">
+    <groups>
+    </groups>
+    <test name="Test cases of DisplayChannelService POST end point" duration-ms="106314" started-at="2019-07-19T09:39:07Z" finished-at="2019-07-19T09:40:54Z">
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName@13805618]" name="initProperties" is-config="true" duration-ms="12" started-at="2019-07-19T09:40:10Z" finished-at="2019-07-19T09:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="FAIL" signature="AddScheduletWithSameScheduleName()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName@13805618]" name="AddScheduletWithSameScheduleName" duration-ms="5102" started-at="2019-07-19T09:40:10Z" finished-at="2019-07-19T09:40:15Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName.AddScheduletWithSameScheduleName(TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScheduletWithSameScheduleName -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName@13805618]" name="getResult" is-config="true" duration-ms="11" started-at="2019-07-19T09:40:15Z" finished-at="2019-07-19T09:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddScheduletWithSameScheduleName status=FAILURE method=TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName.AddScheduletWithSameScheduleName()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName@13805618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID@5cb9f472]" name="initProperties" is-config="true" duration-ms="5" started-at="2019-07-19T09:39:59Z" finished-at="2019-07-19T09:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddScheduleWithoutDayBlockUUID()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID@5cb9f472]" name="AddScheduleWithoutDayBlockUUID" duration-ms="5374" started-at="2019-07-19T09:39:59Z" finished-at="2019-07-19T09:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScheduleWithoutDayBlockUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID@5cb9f472]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:05Z" finished-at="2019-07-19T09:40:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddScheduleWithoutDayBlockUUID status=SUCCESS method=TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID.AddScheduleWithoutDayBlockUUID()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID@5cb9f472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_007_Verify_To_Create_Schedule_Without_DayBlockUUID -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber@ff5b51f]" name="initProperties" is-config="true" duration-ms="2" started-at="2019-07-19T09:40:30Z" finished-at="2019-07-19T09:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GenerateAutoScheduleWithNetworkNumber()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber@ff5b51f]" name="GenerateAutoScheduleWithNetworkNumber" duration-ms="4906" started-at="2019-07-19T09:40:30Z" finished-at="2019-07-19T09:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateAutoScheduleWithNetworkNumber -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber@ff5b51f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:35Z" finished-at="2019-07-19T09:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GenerateAutoScheduleWithNetworkNumber status=SUCCESS method=TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber.GenerateAutoScheduleWithNetworkNumber()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber@ff5b51f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_013_Verify_To_Generate_AutoSchedule_With_NetworkNumber -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber@4b952a2d]" name="initProperties" is-config="true" duration-ms="10" started-at="2019-07-19T09:40:49Z" finished-at="2019-07-19T09:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddAutoScheduletWithSameNetworkNumber()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber@4b952a2d]" name="AddAutoScheduletWithSameNetworkNumber" duration-ms="4906" started-at="2019-07-19T09:40:49Z" finished-at="2019-07-19T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAutoScheduletWithSameNetworkNumber -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber@4b952a2d]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:54Z" finished-at="2019-07-19T09:40:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddAutoScheduletWithSameNetworkNumber status=SUCCESS method=TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber.AddAutoScheduletWithSameNetworkNumber()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber@4b952a2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_017_Verify_To_Generate_AutoSchedule_With_Same_NetworkNumber -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data@56ac3a89]" name="initProperties" is-config="true" duration-ms="18" started-at="2019-07-19T09:39:31Z" finished-at="2019-07-19T09:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddScheduleWithValidData()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data@56ac3a89]" name="AddScheduleWithValidData" duration-ms="4870" started-at="2019-07-19T09:39:32Z" finished-at="2019-07-19T09:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScheduleWithValidData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data@56ac3a89]" name="getResult" is-config="true" duration-ms="2" started-at="2019-07-19T09:39:36Z" finished-at="2019-07-19T09:39:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddScheduleWithValidData status=SUCCESS method=TC_001_Verify_To_Create_Schedule_With_Valid_Data.AddScheduleWithValidData()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_001_Verify_To_Create_Schedule_With_Valid_Data -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload@69ea3742]" name="initProperties" is-config="true" duration-ms="12" started-at="2019-07-19T09:40:43Z" finished-at="2019-07-19T09:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="addAutoScheduleWithEmptyPayload()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload@69ea3742]" name="addAutoScheduleWithEmptyPayload" duration-ms="6132" started-at="2019-07-19T09:40:43Z" finished-at="2019-07-19T09:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAutoScheduleWithEmptyPayload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload@69ea3742]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:49Z" finished-at="2019-07-19T09:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAutoScheduleWithEmptyPayload status=SUCCESS method=TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload.addAutoScheduleWithEmptyPayload()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload@69ea3742] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_016_Verify_To_Generate_AutoSchedule_With_Empty_Payload -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule@490ab905]" name="initProperties" is-config="true" duration-ms="50" started-at="2019-07-19T09:39:07Z" finished-at="2019-07-19T09:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="FAIL" signature="createPrerequisiteTestData()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule@490ab905]" name="createPrerequisiteTestData" duration-ms="24137" started-at="2019-07-19T09:39:07Z" finished-at="2019-07-19T09:39:31Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.truclearglobal.api.utility.DeviceServiceHelper.addDeviceAndReturnId(DeviceServiceHelper.java:33)
+at com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule.createPrerequisiteTestData(TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPrerequisiteTestData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule@490ab905]" name="getResult" is-config="true" duration-ms="18" started-at="2019-07-19T09:39:31Z" finished-at="2019-07-19T09:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPrerequisiteTestData status=FAILURE method=TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule.createPrerequisiteTestData()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule@490ab905] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization@5702b3b1]" name="initProperties" is-config="true" duration-ms="6" started-at="2019-07-19T09:40:40Z" finished-at="2019-07-19T09:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddAutoScheduleWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization@5702b3b1]" name="AddAutoScheduleWithoutAuthorization" duration-ms="2336" started-at="2019-07-19T09:40:40Z" finished-at="2019-07-19T09:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAutoScheduleWithoutAuthorization -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization@5702b3b1]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:43Z" finished-at="2019-07-19T09:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddAutoScheduleWithoutAuthorization status=SUCCESS method=TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization.AddAutoScheduleWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_015_Verify_To_Generate_AutoSchedule_Without_Authorization -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary@4566e5bd]" name="initProperties" is-config="true" duration-ms="6" started-at="2019-07-19T09:40:20Z" finished-at="2019-07-19T09:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddScheduleWithoutDisplayScheduleSummary()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary@4566e5bd]" name="AddScheduleWithoutDisplayScheduleSummary" duration-ms="4430" started-at="2019-07-19T09:40:20Z" finished-at="2019-07-19T09:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScheduleWithoutDisplayScheduleSummary -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary@4566e5bd]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:24Z" finished-at="2019-07-19T09:40:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddScheduleWithoutDisplayScheduleSummary status=SUCCESS method=TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary.AddScheduleWithoutDisplayScheduleSummary()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary@4566e5bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_011_Verify_To_Create_Schedule_Without_DisplayScheduleSummary -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization@6e06451e]" name="initProperties" is-config="true" duration-ms="13" started-at="2019-07-19T09:39:48Z" finished-at="2019-07-19T09:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddScheduleWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization@6e06451e]" name="AddScheduleWithoutAuthorization" duration-ms="2376" started-at="2019-07-19T09:39:48Z" finished-at="2019-07-19T09:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScheduleWithoutAuthorization -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization@6e06451e]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:39:50Z" finished-at="2019-07-19T09:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddScheduleWithoutAuthorization status=SUCCESS method=TC_004_Verify_To_Create_Schedule_Without_Authorization.AddScheduleWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_004_Verify_To_Create_Schedule_Without_Authorization -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber@25bbe1b6]" name="initProperties" is-config="true" duration-ms="6" started-at="2019-07-19T09:40:35Z" finished-at="2019-07-19T09:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GenerateAutoScheduleWithoutNetworkNumber()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber@25bbe1b6]" name="GenerateAutoScheduleWithoutNetworkNumber" duration-ms="5435" started-at="2019-07-19T09:40:35Z" finished-at="2019-07-19T09:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateAutoScheduleWithoutNetworkNumber -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber@25bbe1b6]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:40Z" finished-at="2019-07-19T09:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GenerateAutoScheduleWithoutNetworkNumber status=SUCCESS method=TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber.GenerateAutoScheduleWithoutNetworkNumber()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_014_Verify_To_Generate_AutoSchedule_Without_NetworkNumber -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek@56ef9176]" name="initProperties" is-config="true" duration-ms="10" started-at="2019-07-19T09:40:15Z" finished-at="2019-07-19T09:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddScheduleWithoutDayOfWeek()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek@56ef9176]" name="AddScheduleWithoutDayOfWeek" duration-ms="5114" started-at="2019-07-19T09:40:15Z" finished-at="2019-07-19T09:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScheduleWithoutDayOfWeek -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek@56ef9176]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:20Z" finished-at="2019-07-19T09:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddScheduleWithoutDayOfWeek status=SUCCESS method=TC_010_Verify_To_Create_Schedule_Without_DayOfWeek.AddScheduleWithoutDayOfWeek()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek@56ef9176] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_010_Verify_To_Create_Schedule_Without_DayOfWeek -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload@59494225]" name="initProperties" is-config="true" duration-ms="16" started-at="2019-07-19T09:39:50Z" finished-at="2019-07-19T09:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddScheduleWithInvalidJsonFormat()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload@59494225]" name="AddScheduleWithInvalidJsonFormat" duration-ms="4773" started-at="2019-07-19T09:39:50Z" finished-at="2019-07-19T09:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScheduleWithInvalidJsonFormat -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload@59494225]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:39:55Z" finished-at="2019-07-19T09:39:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddScheduleWithInvalidJsonFormat status=SUCCESS method=TC_005_Verify_To_Create_Schedule_With_Invalid_Payload.AddScheduleWithInvalidJsonFormat()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_005_Verify_To_Create_Schedule_With_Invalid_Payload -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks@1ed4004b]" name="initProperties" is-config="true" duration-ms="7" started-at="2019-07-19T09:40:24Z" finished-at="2019-07-19T09:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddScheduleWithHourBlocks()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks@1ed4004b]" name="AddScheduleWithHourBlocks" duration-ms="5372" started-at="2019-07-19T09:40:24Z" finished-at="2019-07-19T09:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScheduleWithHourBlocks -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks@1ed4004b]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-19T09:40:30Z" finished-at="2019-07-19T09:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddScheduleWithHourBlocks status=SUCCESS method=TC_012_Verify_To_Create_Schedule_With_HourBlocks.AddScheduleWithHourBlocks()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks@1ed4004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_012_Verify_To_Create_Schedule_With_HourBlocks -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName@cb644e]" name="initProperties" is-config="true" duration-ms="15" started-at="2019-07-19T09:40:05Z" finished-at="2019-07-19T09:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddScheduletWithoutScheduleName()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName@cb644e]" name="AddScheduletWithoutScheduleName" duration-ms="5110" started-at="2019-07-19T09:40:05Z" finished-at="2019-07-19T09:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScheduletWithoutScheduleName -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName@cb644e]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:10Z" finished-at="2019-07-19T09:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddScheduletWithoutScheduleName status=SUCCESS method=TC_008_Verify_To_Create_Schedule_Without_ScheduleName.AddScheduletWithoutScheduleName()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName@cb644e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_008_Verify_To_Create_Schedule_Without_ScheduleName -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID@27c20538]" name="initProperties" is-config="true" duration-ms="15" started-at="2019-07-19T09:39:36Z" finished-at="2019-07-19T09:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="FAIL" signature="addScheduleWithScheduleUUID()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID@27c20538]" name="addScheduleWithScheduleUUID" duration-ms="5525" started-at="2019-07-19T09:39:36Z" finished-at="2019-07-19T09:39:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [422]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [422]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID.addScheduleWithScheduleUUID(TC_002_Verify_To_Create_Schedule_With_ScheduleUUID.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScheduleWithScheduleUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID@27c20538]" name="getResult" is-config="true" duration-ms="4" started-at="2019-07-19T09:39:42Z" finished-at="2019-07-19T09:39:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addScheduleWithScheduleUUID status=FAILURE method=TC_002_Verify_To_Create_Schedule_With_ScheduleUUID.addScheduleWithScheduleUUID()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID@27c20538] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload@72d818d1]" name="initProperties" is-config="true" duration-ms="5" started-at="2019-07-19T09:39:42Z" finished-at="2019-07-19T09:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="addScheduleWithEmptyPayload()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload@72d818d1]" name="addScheduleWithEmptyPayload" duration-ms="5894" started-at="2019-07-19T09:39:42Z" finished-at="2019-07-19T09:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScheduleWithEmptyPayload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload@72d818d1]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:39:48Z" finished-at="2019-07-19T09:39:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addScheduleWithEmptyPayload status=SUCCESS method=TC_003_Verify_To_Create_Schedule_With_Empty_Payload.addScheduleWithEmptyPayload()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload@72d818d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_003_Verify_To_Create_Schedule_With_Empty_Payload -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID@6e1567f1]" name="initProperties" is-config="true" duration-ms="11" started-at="2019-07-19T09:39:55Z" finished-at="2019-07-19T09:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="AddScheduleWithoutDisplayUuid()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID@6e1567f1]" name="AddScheduleWithoutDisplayUuid" duration-ms="4227" started-at="2019-07-19T09:39:55Z" finished-at="2019-07-19T09:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScheduleWithoutDisplayUuid -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID@6e1567f1]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:39:59Z" finished-at="2019-07-19T09:39:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddScheduleWithoutDisplayUuid status=SUCCESS method=TC_006_Verify_To_Create_Schedule_Without_DisplayUUID.AddScheduleWithoutDisplayUuid()[pri:0, instance:com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_006_Verify_To_Create_Schedule_Without_DisplayUUID -->
+    </test> <!-- Test cases of DisplayChannelService POST end point -->
+    <test name="Test cases of DisplayChannelService GET end point" duration-ms="90677" started-at="2019-07-19T09:40:54Z" finished-at="2019-07-19T09:42:24Z">
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID@3e9b1010]" name="initProperties" is-config="true" duration-ms="9" started-at="2019-07-19T09:41:04Z" finished-at="2019-07-19T09:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetScheduleWithoutAuthorizationWithDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID@3e9b1010]" name="GetScheduleWithoutAuthorizationWithDisplayUUID" duration-ms="2543" started-at="2019-07-19T09:41:04Z" finished-at="2019-07-19T09:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetScheduleWithoutAuthorizationWithDisplayUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID@3e9b1010]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:41:07Z" finished-at="2019-07-19T09:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetScheduleWithoutAuthorizationWithDisplayUUID status=SUCCESS method=TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID.GetScheduleWithoutAuthorizationWithDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID@3e9b1010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_020_Verify_To_Get_Schedule_Without_Authorization_With_DisplayUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID@3b0143d3]" name="initProperties" is-config="true" duration-ms="10" started-at="2019-07-19T09:42:04Z" finished-at="2019-07-19T09:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetAssetsWithoutAuthorizationWithScheduleUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID@3b0143d3]" name="GetAssetsWithoutAuthorizationWithScheduleUUID" duration-ms="6711" started-at="2019-07-19T09:42:04Z" finished-at="2019-07-19T09:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAssetsWithoutAuthorizationWithScheduleUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID@3b0143d3]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:42:11Z" finished-at="2019-07-19T09:42:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetAssetsWithoutAuthorizationWithScheduleUUID status=SUCCESS method=TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID.GetAssetsWithoutAuthorizationWithScheduleUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_031_Verify_To_Get_Assets_Without_Authorization_With_ScheduleUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID@210366b4]" name="initProperties" is-config="true" duration-ms="10" started-at="2019-07-19T09:41:31Z" finished-at="2019-07-19T09:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetHourBlockWithHourBlockUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID@210366b4]" name="GetHourBlockWithHourBlockUUID" duration-ms="5367" started-at="2019-07-19T09:41:31Z" finished-at="2019-07-19T09:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetHourBlockWithHourBlockUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID@210366b4]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-19T09:41:36Z" finished-at="2019-07-19T09:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetHourBlockWithHourBlockUUID status=SUCCESS method=TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID.GetHourBlockWithHourBlockUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID@210366b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_026_Verify_To_Get_HourBlock_With_HourBlockUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID@335eadca]" name="initProperties" is-config="true" duration-ms="10" started-at="2019-07-19T09:41:26Z" finished-at="2019-07-19T09:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetHourBlockWithDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID@335eadca]" name="GetHourBlockWithDisplayUUID" duration-ms="4557" started-at="2019-07-19T09:41:26Z" finished-at="2019-07-19T09:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetHourBlockWithDisplayUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID@335eadca]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:41:31Z" finished-at="2019-07-19T09:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetHourBlockWithDisplayUUID status=SUCCESS method=TC_025_Verify_To_Get_HourBlock_With_DisplayUUID.GetHourBlockWithDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID@335eadca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_025_Verify_To_Get_HourBlock_With_DisplayUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID@5a8e6209]" name="initProperties" is-config="true" duration-ms="11" started-at="2019-07-19T09:42:11Z" finished-at="2019-07-19T09:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetAssetsWithInvalidScheduleUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID@5a8e6209]" name="GetAssetsWithInvalidScheduleUUID" duration-ms="8345" started-at="2019-07-19T09:42:11Z" finished-at="2019-07-19T09:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAssetsWithInvalidScheduleUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID@5a8e6209]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:42:19Z" finished-at="2019-07-19T09:42:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetAssetsWithInvalidScheduleUUID status=SUCCESS method=TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID.GetAssetsWithInvalidScheduleUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID@5a8e6209] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_032_Verify_To_Get_Assets_With_Invalid_ScheduleUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID@4b4523f8]" name="initProperties" is-config="true" duration-ms="4" started-at="2019-07-19T09:42:19Z" finished-at="2019-07-19T09:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetScheduleWithInvalidDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID@4b4523f8]" name="GetScheduleWithInvalidDisplayUUID" duration-ms="5102" started-at="2019-07-19T09:42:19Z" finished-at="2019-07-19T09:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetScheduleWithInvalidDisplayUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID@4b4523f8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:42:24Z" finished-at="2019-07-19T09:42:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetScheduleWithInvalidDisplayUUID status=SUCCESS method=TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID.GetScheduleWithInvalidDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID@4b4523f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_033_Verify_To_Get_Schedule_With_Invalid_DisplayUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization@67784306]" name="initProperties" is-config="true" duration-ms="4" started-at="2019-07-19T09:41:25Z" finished-at="2019-07-19T09:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetScheduleWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization@67784306]" name="GetScheduleWithoutAuthorization" duration-ms="1781" started-at="2019-07-19T09:41:25Z" finished-at="2019-07-19T09:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetScheduleWithoutAuthorization -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization@67784306]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:41:26Z" finished-at="2019-07-19T09:41:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetScheduleWithoutAuthorization status=SUCCESS method=TC_024_Verify_To_Get_DayBlock_Without_Authorization.GetScheduleWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_024_Verify_To_Get_DayBlock_Without_Authorization -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID@6f1fba17]" name="initProperties" is-config="true" duration-ms="11" started-at="2019-07-19T09:41:12Z" finished-at="2019-07-19T09:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetDayBlockWithDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID@6f1fba17]" name="GetDayBlockWithDisplayUUID" duration-ms="6132" started-at="2019-07-19T09:41:12Z" finished-at="2019-07-19T09:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDayBlockWithDisplayUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID@6f1fba17]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:41:19Z" finished-at="2019-07-19T09:41:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetDayBlockWithDisplayUUID status=SUCCESS method=TC_022_Verify_To_Get_DayBlock_With_DisplayUUID.GetDayBlockWithDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID@6f1fba17] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_022_Verify_To_Get_DayBlock_With_DisplayUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID@185d8b6]" name="initProperties" is-config="true" duration-ms="9" started-at="2019-07-19T09:41:19Z" finished-at="2019-07-19T09:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetDayBlockWithoutDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID@185d8b6]" name="GetDayBlockWithoutDisplayUUID" duration-ms="6077" started-at="2019-07-19T09:41:19Z" finished-at="2019-07-19T09:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDayBlockWithoutDisplayUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID@185d8b6]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:41:25Z" finished-at="2019-07-19T09:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetDayBlockWithoutDisplayUUID status=SUCCESS method=TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID.GetDayBlockWithoutDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID@185d8b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_023_Verify_To_Get_DayBlock_Without_DisplayUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID@520a3426]" name="initProperties" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:54Z" finished-at="2019-07-19T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetScheduleWithScheduleUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID@520a3426]" name="GetScheduleWithScheduleUUID" duration-ms="4682" started-at="2019-07-19T09:40:54Z" finished-at="2019-07-19T09:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetScheduleWithScheduleUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID@520a3426]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:58Z" finished-at="2019-07-19T09:40:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetScheduleWithScheduleUUID status=SUCCESS method=TC_018_Verify_To_Get_Schedule_With_ScheduleUUID.GetScheduleWithScheduleUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID@520a3426] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_018_Verify_To_Get_Schedule_With_ScheduleUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID@57536d79]" name="initProperties" is-config="true" duration-ms="4" started-at="2019-07-19T09:41:48Z" finished-at="2019-07-19T09:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="FAIL" signature="GetAssetsWithScheduleUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID@57536d79]" name="GetAssetsWithScheduleUUID" duration-ms="15774" started-at="2019-07-19T09:41:48Z" finished-at="2019-07-19T09:42:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ERROR: Status Code Validation Failed. expected [200] but found [500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ERROR: Status Code Validation Failed. expected [200] but found [500]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID.GetAssetsWithScheduleUUID(TC_030_Verify_To_Get_Assets_With_ScheduleUUID.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAssetsWithScheduleUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID@57536d79]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:42:04Z" finished-at="2019-07-19T09:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetAssetsWithScheduleUUID status=FAILURE method=TC_030_Verify_To_Get_Assets_With_ScheduleUUID.GetAssetsWithScheduleUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID@57536d79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State@6c3708b3]" name="initProperties" is-config="true" duration-ms="15" started-at="2019-07-19T09:41:07Z" finished-at="2019-07-19T09:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetScheduleWithState()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State@6c3708b3]" name="GetScheduleWithState" duration-ms="5822" started-at="2019-07-19T09:41:07Z" finished-at="2019-07-19T09:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetScheduleWithState -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State@6c3708b3]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:41:12Z" finished-at="2019-07-19T09:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetScheduleWithState status=SUCCESS method=TC_021_Verify_To_Get_Schedule_With_State.GetScheduleWithState()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_021_Verify_To_Get_Schedule_With_State -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID@2b2948e2]" name="initProperties" is-config="true" duration-ms="9" started-at="2019-07-19T09:41:39Z" finished-at="2019-07-19T09:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetHourBlockWithoutDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID@2b2948e2]" name="GetHourBlockWithoutDisplayUUID" duration-ms="5104" started-at="2019-07-19T09:41:39Z" finished-at="2019-07-19T09:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetHourBlockWithoutDisplayUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID@2b2948e2]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:41:44Z" finished-at="2019-07-19T09:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetHourBlockWithoutDisplayUUID status=SUCCESS method=TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID.GetHourBlockWithoutDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_028_Verify_To_Get_HourBlock_Without_DisplayUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization@eec5a4a]" name="initProperties" is-config="true" duration-ms="3" started-at="2019-07-19T09:41:36Z" finished-at="2019-07-19T09:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetHourBlockWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization@eec5a4a]" name="GetHourBlockWithoutAuthorization" duration-ms="2661" started-at="2019-07-19T09:41:36Z" finished-at="2019-07-19T09:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetHourBlockWithoutAuthorization -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization@eec5a4a]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-19T09:41:39Z" finished-at="2019-07-19T09:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetHourBlockWithoutAuthorization status=SUCCESS method=TC_027_Verify_To_Get_HourBlock_Without_Authorization.GetHourBlockWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization@eec5a4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_027_Verify_To_Get_HourBlock_Without_Authorization -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID@6ddf90b0]" name="initProperties" is-config="true" duration-ms="5" started-at="2019-07-19T09:41:44Z" finished-at="2019-07-19T09:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="GetHourBlockWithoutHourBlockUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID@6ddf90b0]" name="GetHourBlockWithoutHourBlockUUID" duration-ms="4182" started-at="2019-07-19T09:41:44Z" finished-at="2019-07-19T09:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetHourBlockWithoutHourBlockUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID@6ddf90b0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-19T09:41:48Z" finished-at="2019-07-19T09:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetHourBlockWithoutHourBlockUUID status=SUCCESS method=TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID.GetHourBlockWithoutHourBlockUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_029_Verify_To_Get_HourBlock_Without_HourBlockUUID -->
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID">
+        <test-method status="PASS" signature="GetScheduleWithDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID@18eed359]" name="GetScheduleWithDisplayUUID" duration-ms="5706" started-at="2019-07-19T09:40:58Z" finished-at="2019-07-19T09:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetScheduleWithDisplayUUID -->
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID@18eed359]" name="initProperties" is-config="true" duration-ms="0" started-at="2019-07-19T09:40:58Z" finished-at="2019-07-19T09:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID@18eed359]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:41:04Z" finished-at="2019-07-19T09:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetScheduleWithDisplayUUID status=SUCCESS method=TC_019_Verify_To_Get_Schedule_With_DisplayUUID.GetScheduleWithDisplayUUID()[pri:0, instance:com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_019_Verify_To_Get_Schedule_With_DisplayUUID -->
+    </test> <!-- Test cases of DisplayChannelService GET end point -->
+    <test name="Test cases of DisplayChannelService PUT end point" duration-ms="62772" started-at="2019-07-19T09:42:24Z" finished-at="2019-07-19T09:43:27Z">
+      <class name="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State@6e0e048a]" name="initProperties" is-config="true" duration-ms="4" started-at="2019-07-19T09:43:17Z" finished-at="2019-07-19T09:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="UpdateScheduleWithState()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State@6e0e048a]" name="UpdateScheduleWithState" duration-ms="10129" started-at="2019-07-19T09:43:17Z" finished-at="2019-07-19T09:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateScheduleWithState -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State@6e0e048a]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:43:27Z" finished-at="2019-07-19T09:43:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateScheduleWithState status=SUCCESS method=TC_039_Update_Schedule_With_State.UpdateScheduleWithState()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State@6e0e048a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.put.testscripts.displaychannelservice.TC_039_Update_Schedule_With_State -->
+      <class name="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color@5b87ed94]" name="initProperties" is-config="true" duration-ms="9" started-at="2019-07-19T09:43:05Z" finished-at="2019-07-19T09:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="UpdateScheduleWithColor()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color@5b87ed94]" name="UpdateScheduleWithColor" duration-ms="11666" started-at="2019-07-19T09:43:05Z" finished-at="2019-07-19T09:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateScheduleWithColor -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color@5b87ed94]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:43:17Z" finished-at="2019-07-19T09:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateScheduleWithColor status=SUCCESS method=TC_038_Update_Schedule_With_Color.UpdateScheduleWithColor()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color@5b87ed94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.put.testscripts.displaychannelservice.TC_038_Update_Schedule_With_Color -->
+      <class name="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID@7fac631b]" name="initProperties" is-config="true" duration-ms="8" started-at="2019-07-19T09:42:55Z" finished-at="2019-07-19T09:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="UpdateScheduleWithoutDayBlockUUID()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID@7fac631b]" name="UpdateScheduleWithoutDayBlockUUID" duration-ms="9859" started-at="2019-07-19T09:42:55Z" finished-at="2019-07-19T09:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateScheduleWithoutDayBlockUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID@7fac631b]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:43:05Z" finished-at="2019-07-19T09:43:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateScheduleWithoutDayBlockUUID status=SUCCESS method=TC_037_Update_Schedule_Without_DayBlockUUID.UpdateScheduleWithoutDayBlockUUID()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID@7fac631b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.put.testscripts.displaychannelservice.TC_037_Update_Schedule_Without_DayBlockUUID -->
+      <class name="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName">
+        <test-method status="PASS" signature="UpdateScheduleWithExistingScheduleName()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName@7b49cea0]" name="UpdateScheduleWithExistingScheduleName" duration-ms="11232" started-at="2019-07-19T09:42:35Z" finished-at="2019-07-19T09:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateScheduleWithExistingScheduleName -->
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName@7b49cea0]" name="initProperties" is-config="true" duration-ms="0" started-at="2019-07-19T09:42:35Z" finished-at="2019-07-19T09:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName@7b49cea0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:42:47Z" finished-at="2019-07-19T09:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateScheduleWithExistingScheduleName status=SUCCESS method=TC_035_Update_Schedule_With_Existing_ScheduleName.UpdateScheduleWithExistingScheduleName()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName@7b49cea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.put.testscripts.displaychannelservice.TC_035_Update_Schedule_With_Existing_ScheduleName -->
+      <class name="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data@61f8bee4]" name="initProperties" is-config="true" duration-ms="7" started-at="2019-07-19T09:42:24Z" finished-at="2019-07-19T09:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="UpdateScheduleWithValidData()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data@61f8bee4]" name="UpdateScheduleWithValidData" duration-ms="11131" started-at="2019-07-19T09:42:24Z" finished-at="2019-07-19T09:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateScheduleWithValidData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data@61f8bee4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:42:35Z" finished-at="2019-07-19T09:42:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateScheduleWithValidData status=SUCCESS method=TC_034_Update_Schedule_With_Valid_Data.UpdateScheduleWithValidData()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data@61f8bee4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.put.testscripts.displaychannelservice.TC_034_Update_Schedule_With_Valid_Data -->
+      <class name="com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization@887af79]" name="initProperties" is-config="true" duration-ms="10" started-at="2019-07-19T09:42:47Z" finished-at="2019-07-19T09:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="UpdateScheduleWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization@887af79]" name="UpdateScheduleWithoutAuthorization" duration-ms="8711" started-at="2019-07-19T09:42:47Z" finished-at="2019-07-19T09:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateScheduleWithoutAuthorization -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization@887af79]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:42:55Z" finished-at="2019-07-19T09:42:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateScheduleWithoutAuthorization status=SUCCESS method=TC_036_Update_Schedule_Without_Authorization.UpdateScheduleWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization@887af79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.put.testscripts.displaychannelservice.TC_036_Update_Schedule_Without_Authorization -->
+    </test> <!-- Test cases of DisplayChannelService PUT end point -->
+    <test name="Test cases of DisplayChannelService DELETE end point" duration-ms="38141" started-at="2019-07-19T09:43:27Z" finished-at="2019-07-19T09:44:05Z">
+      <class name="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID@551aa95a]" name="initProperties" is-config="true" duration-ms="8" started-at="2019-07-19T09:43:57Z" finished-at="2019-07-19T09:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="DeleteScheduleWithInvalScheduleUUID()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID@551aa95a]" name="DeleteScheduleWithInvalScheduleUUID" duration-ms="3920" started-at="2019-07-19T09:43:57Z" finished-at="2019-07-19T09:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteScheduleWithInvalScheduleUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID@551aa95a]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-19T09:44:01Z" finished-at="2019-07-19T09:44:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteScheduleWithInvalScheduleUUID status=SUCCESS method=TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID.DeleteScheduleWithInvalScheduleUUID()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID@551aa95a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_042_Verify_To_Delete_Schedule_With_InvalidScheduleUUID -->
+      <class name="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization@578486a3]" name="initProperties" is-config="true" duration-ms="4" started-at="2019-07-19T09:43:55Z" finished-at="2019-07-19T09:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="DeleteScheduleWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization@578486a3]" name="DeleteScheduleWithoutAuthorization" duration-ms="2417" started-at="2019-07-19T09:43:55Z" finished-at="2019-07-19T09:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteScheduleWithoutAuthorization -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization@578486a3]" name="getResult" is-config="true" duration-ms="3" started-at="2019-07-19T09:43:57Z" finished-at="2019-07-19T09:43:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteScheduleWithoutAuthorization status=SUCCESS method=TC_041_Verify_To_Delete_Schedule_Without_Authorization.DeleteScheduleWithoutAuthorization()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization@578486a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_041_Verify_To_Delete_Schedule_Without_Authorization -->
+      <class name="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule@1f36e637]" name="initProperties" is-config="true" duration-ms="8" started-at="2019-07-19T09:43:50Z" finished-at="2019-07-19T09:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="DeleteScheduleWithValidData()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule@1f36e637]" name="DeleteScheduleWithValidData" duration-ms="4671" started-at="2019-07-19T09:43:50Z" finished-at="2019-07-19T09:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteScheduleWithValidData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule@1f36e637]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:43:55Z" finished-at="2019-07-19T09:43:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteScheduleWithValidData status=SUCCESS method=TC_040_Verify_To_Delete_Created_Schedule.DeleteScheduleWithValidData()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule@1f36e637] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_040_Verify_To_Delete_Created_Schedule -->
+      <class name="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data">
+        <test-method status="PASS" signature="intiReportProperties()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data@2758fe70]" name="intiReportProperties" is-config="true" duration-ms="139" started-at="2019-07-19T09:39:07Z" finished-at="2019-07-19T09:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiReportProperties -->
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data@2758fe70]" name="initProperties" is-config="true" duration-ms="6" started-at="2019-07-19T09:43:27Z" finished-at="2019-07-19T09:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="FAIL" signature="testDeleteTestData()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data@2758fe70]" name="testDeleteTestData" duration-ms="22772" started-at="2019-07-19T09:43:27Z" finished-at="2019-07-19T09:43:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ERROR: Status Code Validation Failed. expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ERROR: Status Code Validation Failed. expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at com.truclearglobal.api.utility.NetworkHelper.deleteNetwork(NetworkHelper.java:81)
+at com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data.testDeleteTestData(TC_000_Verify_To_Delete_All_Test_Data.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteTestData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data@2758fe70]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:43:50Z" finished-at="2019-07-19T09:43:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteTestData status=FAILURE method=TC_000_Verify_To_Delete_All_Test_Data.testDeleteTestData()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data@2758fe70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data@2758fe70]" name="tearDown" is-config="true" duration-ms="238" started-at="2019-07-19T09:44:05Z" finished-at="2019-07-19T09:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data -->
+      <class name="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID@35d176f7]" name="initProperties" is-config="true" duration-ms="9" started-at="2019-07-19T09:44:01Z" finished-at="2019-07-19T09:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="DeleteScheduleWithInvalidDisplayUUID()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID@35d176f7]" name="DeleteScheduleWithInvalidDisplayUUID" duration-ms="4313" started-at="2019-07-19T09:44:01Z" finished-at="2019-07-19T09:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteScheduleWithInvalidDisplayUUID -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID@35d176f7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-19T09:44:05Z" finished-at="2019-07-19T09:44:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteScheduleWithInvalidDisplayUUID status=SUCCESS method=TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID.DeleteScheduleWithInvalidDisplayUUID()[pri:0, instance:com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID@35d176f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_043_Verify_To_Delete_Schedule_With_InvalidDisplayUUID -->
+    </test> <!-- Test cases of DisplayChannelService DELETE end point -->
+  </suite> <!-- TrueClear-DisplayChannelService-Api -->
+</testng-results>

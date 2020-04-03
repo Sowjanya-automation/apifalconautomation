@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EmployeeService-PUT-Endpoint">
+<test name="Sample Test">
+		<classes>
+			<class
+				name="com.falcon.api.put.testscripts.employeeservice.TC_006_Update_Employee_With_Valid_Data" />
+		</classes>
+	</test>  
+</suite>

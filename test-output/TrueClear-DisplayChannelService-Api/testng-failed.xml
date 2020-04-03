@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TrueClear-DisplayChannelService-Api]">
+  <test thread-count="5" name="Test cases of DisplayChannelService POST end point(failed)">
+    <classes>
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName">
+        <methods>
+          <include name="intiReportProperties"/>
+          <include name="AddScheduletWithSameScheduleName"/>
+          <include name="initProperties"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_009_Verify_To_Create_Schedule_With_Same_ScheduleName -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID">
+        <methods>
+          <include name="intiReportProperties"/>
+          <include name="initProperties"/>
+          <include name="tearDown"/>
+          <include name="addScheduleWithScheduleUUID"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_002_Verify_To_Create_Schedule_With_ScheduleUUID -->
+      <class name="com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule">
+        <methods>
+          <include name="createPrerequisiteTestData"/>
+          <include name="intiReportProperties"/>
+          <include name="initProperties"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.truclearglobal.api.post.testscripts.displaychannelservice.TC_000_Verify_To_Create_Prerequisite_Testdata_For_Schedule -->
+    </classes>
+  </test> <!-- Test cases of DisplayChannelService POST end point(failed) -->
+  <test thread-count="5" name="Test cases of DisplayChannelService GET end point(failed)">
+    <classes>
+      <class name="com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID">
+        <methods>
+          <include name="intiReportProperties"/>
+          <include name="GetAssetsWithScheduleUUID"/>
+          <include name="initProperties"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.truclearglobal.api.get.testscripts.displaychannelservice.TC_030_Verify_To_Get_Assets_With_ScheduleUUID -->
+    </classes>
+  </test> <!-- Test cases of DisplayChannelService GET end point(failed) -->
+  <test thread-count="5" name="Test cases of DisplayChannelService DELETE end point(failed)">
+    <classes>
+      <class name="com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data">
+        <methods>
+          <include name="intiReportProperties"/>
+          <include name="initProperties"/>
+          <include name="tearDown"/>
+          <include name="testDeleteTestData"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.truclearglobal.api.delete.testscripts.displaychannelservice.TC_000_Verify_To_Delete_All_Test_Data -->
+    </classes>
+  </test> <!-- Test cases of DisplayChannelService DELETE end point(failed) -->
+</suite> <!-- Failed suite [TrueClear-DisplayChannelService-Api] -->
